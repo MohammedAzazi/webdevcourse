@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mo's Blog</title>
+
+    <style>
+        
+        /* Please don't judge my styiling if I used the wrong code or tags or conecpts to make something, this is what I learned from messing around only :) */
+        
+        body{
+            background-image:linear-gradient(295deg,#d6d6d6,rgb(75, 69, 69));
+            text-align: center;
+        }
+
+        #title{
+            font-size:200px;
+            font-family: fantasy;
+            text-shadow: 2px 2px 5px rgb(0, 0, 0);
+            transition:0.75s ease;
+        }
+
+        #title:hover{
+            transition:0.75s ease;
+            color:darkred;
+        }
+
+        #hovermessage{
+            text-align: center;
+        }
+        
+
+        #navigation{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size:x-large;
+            padding-top:10px;
+        }
+
+        .navitems{
+            border-style:double;
+            border-width: 1.5mm;
+            transition:0.75s ease;
+        }
+
+        .navitems:hover{
+            transition: 0.75s ease;
+            background-color: #d7ba89;
+            font-size: 30px;
+            cursor: crosshair;
+        }
+
+        #wavinghand:hover{
+            cursor: grab;
+        }
+
+        #aboutmep{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+
+    </style>
+
+</head>
+<body>
+    <header>
+
+
+        <!-- Navigation Controls -->
+        <nav id="navigation">
+        <a href="#home"><span class="navitems" id="home">Home</span></a>
+        <a href="#aboutme"><span class="navitems">About</span></a>
+        <a href="#article"><span class="navitems">Articles</span></a>
+        <a href="#contact"><span class="navitems">Contact</span></a>
+        </nav>
+
+        <!-- Main Title and Welcome Image -->
+        <div id="container">
+        <h1 id="title"> Hello World! </h1> 
+        <img src="wavinghand.png" alt="A picture of waving hand" width="500" id="wavinghand">
+        </div>
+
+
+
+
+        <!-- Video -->
+
+        <p>watch this!</p>
+        <video controls width="500">
+            <source src="htmlvid.mp4">
+        </video>
+
+
+        <!-- Line breaks for distance between main title and other sections (about, contact) -->
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>     
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+        
+        <main>
+            <!-- About Me section with funny audio -->
+            <section>
+                <i><h1 id="aboutme" style="font-size: 150px;font-family: monospace;">Mo's Journey</h1></i>
+                <section id="aboutmep"></div><p style="font-size: x-large;width:400px;">Hey, I'm mo, and my goal is to become a full-stack developer and make some really cool projects in the future. I enjoy coding and find it relaxing, like a break from the world.</p></section>
+                <audio controls>
+                    <source src="funnysound.mp3">
+                </audio>
+            </section>
+
+        <!-- Breaks between sections -->
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+            <!-- Blog Article (ex. beware of AI and its effect on developers in 2027) -->
+            <article>
+                <h2 id="article" style="font-size: 75px;">beware of AI and its effect on developers in 2027!</h2>
+                <p>In order for you to understand, watch this video:</p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/pXi0IEtvW4U?si=lzi9q3XOr4cq6sjt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </article>
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+            <aside>
+                <h2>Extra Links</h2>
+                <a href="https://www.instagram.com/" target="_blank">- Instagram</a></li>
+                <br>
+                <a href="https://www.youtube.com/" target="_blank">- Youtube</a></li>
+            </aside>
+
+            <footer>
+                <h2 id="contact">Contact Me</h2>
+                <a href="tel:+123456789">- Call Me</a></li>
+                <br>
+                <a href="mailto:testing@mail.com">- Email Me</a></li>
+                <br>
+                <p>&copy; Mohammed Azazi 2025</p>
+            </footer>
+        </main>
+
+    </header>
+</body>
+</html>
